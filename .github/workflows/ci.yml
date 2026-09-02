@@ -2,6 +2,9 @@ name: Boutique CI Pipeline
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
@@ -92,4 +95,3 @@ jobs:
           git add gitops/k8s/
           git diff --staged --quiet || git commit -m "ci: update image tags to ${{ github.sha }}"
           git push
-
