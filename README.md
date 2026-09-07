@@ -1,6 +1,7 @@
-# Cloud-Native Boutique Platform with AIOps
+# DevOps + AIOps
 
-This repository contains a boutique e-commerce application and the infrastructure used to run it locally or on Amazon EKS. The implementation includes a React frontend, Node.js microservices, PostgreSQL, container builds, Terraform, Kubernetes manifests, Argo CD, Prometheus, Grafana, and an AWS Bedrock-based incident-analysis assistant.
+This repository is a full end-to-end DevOps project with AIOps integration, demonstrating how AI can help automate DevOps and operational-analysis tasks across a cloud native boutique e-commerce platform. The application runs locally or on Amazon EKS, with an implementation that includes a React frontend, Node.js microservices (Frontend, Gateway, Auth, Product Service, Order Service, Orders, User Service) PostgreSQL, container builds, Terraform, Kubernetes manifests, Argo CD, Prometheus, Grafana, CloudWatch logging, and an AWS Bedrock based incident analysis assistant.
+
 
 ## Architecture
 
